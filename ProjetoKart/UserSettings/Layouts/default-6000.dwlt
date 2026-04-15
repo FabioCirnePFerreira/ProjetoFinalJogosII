@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 1066
     height: 624
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -326,8 +326,8 @@ MonoBehaviour:
     y: 0
     width: 494
     height: 924
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -639,7 +639,7 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 54134
+  m_LastSelectedObjectID: 48002
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -682,11 +682,11 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 54134
+      - m_Data: 48002
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 48002
       m_ExpandedIDs:
-      - m_Data: -19266
+      - m_Data: -1294
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -832,7 +832,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__left
-      displayed: 0
+      displayed: 1
       id: Terrain Tools
       index: 0
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -1237,9 +1237,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.96193504, y: 0.32405758, z: 0.8010397}
+    m_Target: {x: 19.235317, y: -25.506786, z: -3.7986455}
     speed: 2
-    m_Value: {x: -0.96193504, y: 0.32405758, z: 0.8010397}
+    m_Value: {x: 19.235317, y: -25.506786, z: -3.7986455}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1287,11 +1287,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.09074492, y: 0.8880324, z: -0.19933638, w: -0.40426373}
     speed: 2
-    m_Value: {x: -0.091043815, y: 0.8874249, z: -0.1992, w: -0.40559527}
+    m_Value: {x: -0.09074491, y: 0.88803226, z: -0.19933635, w: -0.40426368}
   m_Size:
-    m_Target: 10
+    m_Target: 136.91768
     speed: 2
-    m_Value: 10
+    m_Value: 143.3693
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1598,12 +1598,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 54402
+    - m_Data: 45612
     m_LastClickedID:
-      m_Data: 54402
+      m_Data: 45612
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 54402
+    - m_Data: 45612
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -1636,7 +1636,9 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 45612
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1664,8 +1666,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 54134
-    m_LastClickedInstanceID: 54134
+    - m_Data: 48002
+    m_LastClickedInstanceID: 48002
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
