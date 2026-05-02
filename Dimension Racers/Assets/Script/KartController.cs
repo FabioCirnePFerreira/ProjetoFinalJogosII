@@ -1,31 +1,14 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class KartController : MonoBehaviour
 {
+    float moveInput;
+    float steerInput;
+
     public float acceleration = 25f;
-    public float maxSpeed = 30f;
     public float turnSpeed = 120f;
 
-    private Rigidbody rb;
-
-    private KartInputActions input;
-    private Vector2 moveInput;
-
-    void Awake()
-    {
-        input = new KartInputActions();
-    }
-
-    void OnEnable()
-    {
-        input.Enable();
-    }
-
-    void OnDisable()
-    {
-        input.Disable();
-    }
+    Rigidbody rb;
 
     void Start()
     {
@@ -34,7 +17,8 @@ public class KartController : MonoBehaviour
 
     void Update()
     {
-        moveInput = input.Player.Move.ReadValue<Vector2>();
+        moveInput = Input.GetAxis("Vertical");
+        steerInput = Input.GetAxis("Horizontal");
     }
 
     void FixedUpdate()
@@ -45,12 +29,12 @@ public class KartController : MonoBehaviour
 
     void Move()
     {
-        rb.AddForce(transform.forward * moveInput.y * acceleration, ForceMode.Acceleration);
+        rb.AddForce(transform.forward * moveInput * acceleration);
     }
 
     void Turn()
     {
-        float turn = moveInput.x * turnSpeed * Time.fixedDeltaTime;
+        float turn = steerInput * turnSpeed * Time.fixedDeltaTime;
         rb.MoveRotation(rb.rotation * Quaternion.Euler(0f, turn, 0f));
     }
 }
